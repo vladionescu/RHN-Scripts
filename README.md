@@ -15,7 +15,7 @@ Resources
 
 The [RHN Satellite 5.5 API](https://access.redhat.com/site/documentation/en-US/Red_Hat_Network_Satellite/5.5/html/API_Overview/files/html/handlers/SystemHandler.html#setChildChannels) is good enough and available on an all-inclusive single HTML page.
 
-The scripts are written in Python 2.6. They should be Python 3 compatible, let me know if there are issues.
+The scripts are written in Python 2.6. They should be Python 3 compatible, let me know (send pull request) if there are issues.
 
 Scripts
 -------
