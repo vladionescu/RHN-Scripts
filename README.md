@@ -22,3 +22,6 @@ Scripts
 
 * rhn-channel-add-scl &lt;hostname&gt; [hostname] ...
   * Takes at least one argument. Searches for any systems in Satellite that begin with the given hostnames and enables [Software Collections](http://developerblog.redhat.com/2013/01/28/software-collections-on-red-hat-enterprise-linux/) by adding the SCL channel, if available.
+
+* rhn-channel-add-optional &lt;hostname&gt; [hostname] ...
+  * Takes at least one argument. Searches for any systems in Satellite that begin with the given hostnames and adds any optional channel the system is not currently subscribed to.
